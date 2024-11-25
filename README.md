@@ -14,23 +14,30 @@ Este proyecto es un microservicio desarrollado con Flask que se conecta a una ba
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/bakugan-api.git
+    git clone https://github.com/crvargasm/bakugan-api.git
+    ```
+    o con SSH:
+    ```bash
+    git clone git@github.com:crvargasm/bakugan-api.git
+    ```
+    Luego ingresa a la carpeta del proyecto:
+   ```bash
     cd bakugan-api
     ```
 
-2. Crea un entorno virtual (opcional pero recomendado):
+3. Crea un entorno virtual (opcional pero recomendado):
     ```bash
     python -m venv venv
     source venv/bin/activate  # En Linux/Mac
     venv\Scripts\activate  # En Windows
     ```
 
-3. Instala las dependencias:
+4. Instala las dependencias:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Crea un archivo `.env` en la raíz del proyecto con la siguiente estructura, utilizando tus credenciales de MySQL:
+5. Crea un archivo `.env` en la raíz del proyecto con la siguiente estructura, utilizando tus credenciales de MySQL:
 
     ```env
     USER_DB=tu_usuario_de_mysql
@@ -40,7 +47,7 @@ Este proyecto es un microservicio desarrollado con Flask que se conecta a una ba
     NAME_DB=nombre_de_tu_base_de_datos
     ```
 
-5. Crea la tabla `bakugan` en tu base de datos MySQL (puedes ajustar la estructura del archivo ```dump.sql``` según tus necesidades).
+6. Crea la tabla `bakugan` en tu base de datos MySQL (puedes ajustar la estructura del archivo ```dump.sql``` según tus necesidades).
 
 ## Uso de la API
 
